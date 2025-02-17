@@ -49,7 +49,7 @@
     }
 
     async function displayTerminal() {
-      for (let i = 0; i < 30; i++) {
+      for (let i = 0; i < 20; i++) {
         const randomWord = words[Math.floor(Math.random() * words.length)];
         await typeLine(`[SYSTEM] ${randomWord}...`);
       }
