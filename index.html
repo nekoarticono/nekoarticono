@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chegaste mas vais passar?</title>
+  <title>Chegaste mais vais passar?</title>
   <style>
     body {
       background-color: black;
@@ -31,7 +31,7 @@
   <script>
     const terminal = document.getElementById('terminal');
     const words = ['ACCESSING', 'PROTOCOL', 'ENCRYPTED', 'DECODING', 'ERROR', 'LOADING', 'FRACTAL', 'BINARY', 'OVERRIDE', 'FIREWALL'];
-    const codes = ['XC92-A1B3', 'QW28-PLX9', 'ZT56-9MA4', 'KM47-2BR8', 'RX91-4QW6'];
+    const codes = ['72, 26, b, 1b, 6, 2, 1, 1', 'JE, I4, AM, AM', 'G-H-C-A-C-C-A-A'];
 
     function typeLine(text, speed = 50) {
       return new Promise(resolve => {
@@ -61,7 +61,7 @@
         await typeLine(`[CODE ${i + 1}] ${codes[i]}`);
       }
 
-      await typeLine('\n[WARNING] ONLY ONE CODE IS CORRECT!');
+      await typeLine('\n[WARNING] ONLY ONE CODE IS CORRECT!\n[WARNING] WANT SOME TIPS? MAYBE LOOK AT THE NAME OF THE SITE \n[TIP]BASE = 6x6\n[TIP]WHATS THE BEST THEOREM IN MATH?');
     }
 
     displayTerminal();
